@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crotchet</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+        }
+
+        header {
+            align-items: center;
+            padding: 1rem;
+            background-color: beige;
+        }
+
+        h2 {
+            color:#555;
+        }
+
+        .sponsors {
+            text-align: center;
+            padding: 8rem 3rem;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .sponsors h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .sponsor-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .sponsor {
+            background-color: #eaeaea;
+            padding: 20px;
+            border-radius: 10px;
+            width: 150px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .sponsor img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .sponsor p {
+            margin: 0;
+            font-size: 1em;
+            color: #555;
+        }
+
+        .sponsor:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            height: 100px;
+            background-color: #555;
+            color: white;
+            padding: 3rem 3rem 0 3rem;
+            justify-items: center;
+        }
+
+</style>
+</head>
+<body>
+    <header>
+        <div style="display: flex; justify-content: center; align-items: center;">
+            <img width="50px" src="logo.jpg" alt="logo">
+            <h2>Cozy Up With Crotchet</h2>
+            <img width="50px" src="logo.jpg" alt="logo">
+        </div>
+    </header>
+    <main>
+        <section style="display: flex; justify-content: center;">
+            <img src="logo.jpg" alt="logo">
+        </section>
+        <section class="sponsors">
+            <h2>Our Creators</h2>
+            <div class="sponsor-container">
+                <div class="sponsor">
+                    <img src="Mila.jpg" alt="Creator 1">
+                    <p>Mila</p>
+                </div>
+                <div class="sponsor">
+                    <img src="Shyla.jpg" alt="Creator 2">
+                    <p>Shyla</p>
+                </div>
+                <div class="sponsor">
+                    <img src="Meishka.jpg" alt="Creator 3">
+                    <p>Meishka</p>
+                </div>
+                <div class="sponsor">
+                    <img src="Ritung.jpg" alt="Creator 4">
+                    <p>Ritung</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <p>&copy; Copyright 2025 JarredIndustries. All Rights Reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
