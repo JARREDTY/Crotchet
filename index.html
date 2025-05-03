@@ -3,90 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Crotchet</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
 
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #ffffff;
-        }
-
-        header {
-            align-items: center;
-            padding: 1rem;
-            background-color: beige;
-        }
-
-        h2 {
-            color:#555;
-        }
-
-        .sponsors {
-            text-align: center;
-            padding: 8rem 3rem;
-            background-color: #fff;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-
-        .sponsors h2 {
-            font-size: 2em;
-            margin-bottom: 20px;
-            color: #333;
-        }
-
-        .sponsor-container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 20px;
-        }
-
-        .sponsor {
-            background-color: #eaeaea;
-            padding: 20px;
-            border-radius: 10px;
-            width: 150px;
-            text-align: center;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s ease;
-        }
-
-        .sponsor img {
-            max-width: 100%;
-            height: auto;
-            margin-bottom: 10px;
-        }
-
-        .sponsor p {
-            margin: 0;
-            font-size: 1em;
-            color: #555;
-        }
-
-        .sponsor:hover {
-            transform: scale(1.05);
-        }
-
-        footer {
-            height: 100px;
-            background-color: #555;
-            color: white;
-            padding: 3rem 3rem 0 3rem;
-            justify-items: center;
-        }
 
 </style>
 </head>
 <body>
     <header>
-        <div style="display: flex; justify-content: center; align-items: center;">
+        <div class="headerin">
             <img width="50px" src="logo.jpg" alt="logo">
             <h2>Cozy Up With Crotchet</h2>
             <img width="50px" src="logo.jpg" alt="logo">
@@ -114,6 +40,59 @@
                 <div class="sponsor">
                     <img src="Ritung.jpg" alt="Creator 4">
                     <p>Ritung</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>Our Products</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="https://www.kyefashion.com/wp-content/uploads/2021/05/knitting-gloves-gifts.jpg" alt="Product 1">
+                    <h2>Gloves</h2>
+                    <p class="price">R44.99</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://cdna.lystit.com/400/500/tr/photos/ruelala/1596b917/trina-turk-Orange-Terrace-Linen-Top.jpeg" alt="Product 2">
+                    <h2>Tops</h2>
+                    <p class="price">R104.99</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://i5.walmartimages.com/asr/ca0ba6b5-ce7d-4b38-88f2-b4969c0799ac.91f86ee85d6f633f2ef60305cc1ef52e.jpeg" alt="Product 3">
+                    <h2>Skirt</h2>
+                    <p class="price">R109.99</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://i5.walmartimages.com/seo/Scunci-The-Original-Scrunchie-Extra-Large-Hair-Ties-in-Knit-Fabric-Assorted-Colors-12ct_8ae0847f-3cf0-46f7-93b0-ce166dfcb7d2.5288c66fd32d88f3cd15d1a6f8ec9587.jpeg" alt="Product 1">
+                    <h2>Scrunchie</h2>
+                    <p class="price">R34.99</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://th.bing.com/th/id/OIP.0Cd-5ujplZATxx28-LL57QHaEK?rs=1&pid=ImgDetMain" alt="Product 2">
+                    <h2>Belly Chain</h2>
+                    <p class="price">R9.99</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://th.bing.com/th/id/OIP.JSQzVb9GZThEmwiLkwaX4AHaHt?w=860&h=896&rs=1&pid=ImgDetMain" alt="Product 3">
+                    <h2>Necklaces</h2>
+                    <p class="price">R9.99</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://m.media-amazon.com/images/I/81Rzfn-hRiL._AC_SL1500_.jpg" alt="Product 2">
+                    <h2>Headbands</h2>
+                    <p class="price">R24.99</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://i.pinimg.com/originals/dc/96/cc/dc96cc772e0b966926bff9f5f2aeed1d.jpg" alt="Product 3">
+                    <h2>Top & Skirt</h2>
+                    <p class="price">R249.99</p>
+                    <button>Add to Cart</button>
                 </div>
             </div>
         </section>
